@@ -4,7 +4,7 @@ ScreenGui.Parent = game:GetService("CoreGui")
 
 -- Create Black Overlay (50% Transparency, Covers Half of the Screen)
 local Overlay = Instance.new("Frame")
-Overlay.Size = UDim2.new(1, 0, 0.5, 0) -- Covers the top half of the screen
+Overlay.Size = UDim2.new(1, 0, 0.10, 0) -- Covers the top half of the screen
 Overlay.Position = UDim2.new(0, 0, 0, 0)
 Overlay.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- Black
 Overlay.BackgroundTransparency = 0.5 -- 50% transparency
